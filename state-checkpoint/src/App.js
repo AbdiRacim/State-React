@@ -1,5 +1,7 @@
 import React, {Component} from "react"
 import toxico from "./assets/DzToxico.jpg"
+import Fati from "./assets/Fati.jpg"
+import hacker from "./assets/chut.webp"
 import style from "./App.css"
 import Chrono from "./StopMatch/Chrono"
 import Chrono2 from "./StopMatch/Chrono2/Chrono2"
@@ -29,7 +31,39 @@ state ={
     }
   }
   
-  
+  componentDidUpdate() {
+    if (this.state.miliSec == 500) {
+      alert('OHHH what ARE YOU DOING!')
+      alert('you really wasting your time for a toxico men!!!!')
+      alert(`                            Okey look just wait 1 min dude \n 
+                                      you won't regret it ;) `      )
+    }
+    if (this.state.miliSec == 6000) {
+      this.state.imgSrc =Fati
+      this.state.profession ="Stylist for stars and Model"
+      this.state.fullName ="Fati la blonde"
+      this.state.bio = `her nickname is her "El Zela", she is known for her beauty her class but also her kindness and tenderness this woman is simply perfect.
+      all women are jealous of her for her beauty and also because she attracts all men to her.`
+  }
+  if (this.state.miliSec == 6200) {
+    alert(`you see i told dude, now wait until "1min 30s" you will see her naked  `)
+  }
+  if (this.state.miliSec == 9000) {
+    this.state.imgSrc = hacker
+    this.state.profession ="perv data thief"
+    this.state.fullName ="H4(x3/2"
+    this.state.bio = `basically, friend, you were literally fooled and in the end you won the title of pervert, it's cool, isn't it? XDDDDDDDDDD byebye`
+}
+if (this.state.miliSec == 9200) {
+  alert('poor pervet guy, i stole all your Data XDD')
+  }
+}
+
+  componentWillUnmount () {
+    if (this.state.miliSec == 10000) {
+      console.log("finish")
+    }
+  }
   render() {
     return (
       <>
@@ -74,7 +108,7 @@ state ={
             </span>
 
             <span className="S-span">
-                {("00" + ((this.state.miliSec  ) % 100)).slice(-2)}
+                {("00" + ((this.state.miliSec) % 100)).slice(-2)}
             </span>
 
           </span>
