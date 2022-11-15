@@ -1,0 +1,95 @@
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.div01{
+  background-color: #233142;
+  width: 400px;
+  height: 430px;
+  padding: 10px;
+  border-radius: 5%;
+  margin: 30px 0px -33px 0px;
+}
+.img{
+  border-radius: 50%;
+  border: 5px #e3e3e3 solid;
+}
+.div1{
+  display: flex;
+  justify-content: center;
+  background-color: #455d7a;
+  color:#e3e3e3;
+  margin: 10px;
+  padding: 20px;
+
+  border-radius: 50%;
+  border: 5px #e3e3e3 solid;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.div002{
+  display: flex;
+  justify-content: center;
+  background-color: #233142;
+  border-radius: 5%;
+}
+.div02{
+  display: flex;
+  justify-content: center;
+  background-color: #455d7a;
+  color:#e3e3e3;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15%;
+  width:300px;
+  height: 340px;
+  border: 5px #e3e3e3 solid;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.div2{
+  display: flex;
+  justify-content: center;
+  background-color: #f95959;
+  color:#e3e3e3;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5%;
+  border: 5px #e3e3e3 solid;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.div-button{
+  background-color: #233142;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px;
+
+}
+.button{
+  background-color:#455d7a;
+  color:#e3e3e3;
+  border: 2px #e3e3e3 solid;
+}
+.button:hover{
+  background-color: #233142;
+}
+.Big-span{
+  background-color:#e3e3e3;
+  display: flex;
+  align-items: center;
+}
+.S-span{
+  color: #f95959;
+}
